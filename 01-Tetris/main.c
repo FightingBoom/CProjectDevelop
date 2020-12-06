@@ -749,77 +749,77 @@ void title()
 }
 void flower()
 {
-	gotoxy(66,11);   	//确定屏幕上要输出的位置
+	gotoxy(66+2,11);   	//确定屏幕上要输出的位置
 	color(12);			//设置颜色
 	printf("(_)");  	//红花上边花瓣
 
-	gotoxy(64,12);
+	gotoxy(64+2,12);
 	printf("(_)");      //红花左边花瓣
 
-	gotoxy(68,12);
+	gotoxy(68+2,12);
 	printf("(_)");      //红花右边花瓣
 
-	gotoxy(66,13);
+	gotoxy(66+2,13);
 	printf("(_)");      //红花下边花瓣
 
-	gotoxy(67,12);      //红花花蕊
+	gotoxy(67+2,12);      //红花花蕊
 	color(6);
 	printf("@");
 	
-	gotoxy(72,10);
+	gotoxy(72+2,10);
 	color(13);
 	printf("(_)");      //粉花左边花瓣
 
-	gotoxy(76,10);
+	gotoxy(76+2,10);
 	printf("(_)");      //粉花右边花瓣
 
-	gotoxy(74,9);
+	gotoxy(74+2,9);
 	printf("(_)");      //粉花上边花瓣
 	
-	gotoxy(74,11);
+	gotoxy(74+2,11);
 	printf("(_)");      //粉花下边花瓣
 	
-	gotoxy(75,10);
+	gotoxy(75+2,10);
 	color(6);
 	printf("@");        //粉花花蕊
 	
-	gotoxy(71,12);
+	gotoxy(71+2,12);
 	printf("|");      	//两朵花之间的连接
 
-	gotoxy(72,11);
+	gotoxy(72+2,11);
 	printf("/");      	//两朵花之间的连接
 
-	gotoxy(70,13);
+	gotoxy(70+2,13);
 	printf("\\|");       //注意、\为转义字符。想要输入\，必须在前面需要转义
 
-	gotoxy(70,14);
+	gotoxy(70+2,14);
 	printf("`|/");
 
-	gotoxy(70,15);
+	gotoxy(70+2,15);
 	printf("\\|");
 
-	gotoxy(71,16);
+	gotoxy(71+2,16);
 	printf("| /");
 
-	gotoxy(71,17);
+	gotoxy(71+2,17);
 	printf("|");
 	
-	gotoxy(67,17);
+	gotoxy(67+2,17);
 	color(10);
 	printf("\\\\\\\\");      //草地
 
-	gotoxy(73,17);
+	gotoxy(73+2,17);
 	printf("//");
 
-	gotoxy(67,18);
+	gotoxy(67+2,18);
 	color(2);
 	printf("^^^^^^^^");
 	
-	gotoxy(65,19);
+	gotoxy(63,19);
 	color(5);
-	printf("嵌入式基础学习");
+	printf("嵌 入 式 基 础 学 习");
 	
-	gotoxy(68,20);
+	gotoxy(67,20);
 	printf("FightingBoom");
 }
 
