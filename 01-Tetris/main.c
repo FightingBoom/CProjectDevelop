@@ -817,10 +817,10 @@ void flower()
 	
 	gotoxy(65,19);
 	color(5);
-	printf("明 日  科 技");
+	printf("嵌入式基础学习");
 	
 	gotoxy(68,20);
-	printf("周小美");
+	printf("FightingBoom");
 }
 
  /**
