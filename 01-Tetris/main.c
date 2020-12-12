@@ -817,7 +817,7 @@ void flower()
 	
 	gotoxy(63,19);
 	color(5);
-	printf("嵌 入 式 基 础 学 习");
+	printf("公众号：嵌入式基础学习");
 	
 	gotoxy(67,20);
 	printf("FightingBoom");
