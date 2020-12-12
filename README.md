@@ -1,16 +1,16 @@
-# CProjectDevelop 介绍
+# 1 CProjectDevelop 介绍
 
 &emsp;&emsp; C 语言小项目开发
 
 
 
-# 项目分类
+# 2 项目分类
 
 
 
-## 俄罗斯方块
+## 2.1 俄罗斯方块
 
-### 项目简介
+### 2.1.1 项目简介
 
 &emsp;&emsp;在 windows 系统下 DOS 界面运行的俄罗斯方块小游戏，具备一些基础的俄罗斯方块功能：
 
@@ -21,7 +21,7 @@
 
 
 
-### 开发环境
+### 2.1.2 开发环境
 
 &emsp;&emsp;项目使用的开发环境如下：
 
@@ -40,6 +40,6 @@ gcc version 8.1.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project)
 
 
 
-### 备注信息
+### 2.1.3 备注信息
 
 &emsp;&emsp;参考明日科技的《C语言项目开发丨实战入门》一书；
